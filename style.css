@@ -468,6 +468,7 @@ body {
 
   .about-section {
     flex-direction: column;
+    padding-right: 0;
   }
 
   .about-picture {
@@ -493,6 +494,38 @@ body {
     text-align: center;
     padding-right: 0;
   }
+
+  .contact-details-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-details-left-side {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .contact-paragraph {
+    width: 500px;
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+
+  .contact-form-container {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contact-textbox {
+    width: 400px;
+  }
+
+  .contact-send-message-button {
+    width: 410px;
+  }
+
 }
 
 @media (max-width: 600px) and (min-width: 1px) {
@@ -505,7 +538,7 @@ body {
   }
 
   .hero-section-logo {
-      width: 320px;
+      width: 270px;
       margin-left: 0;
   }
 
@@ -528,6 +561,10 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 
+  .food-container {
+    width: 120px;
+  }
+
   .about-section {
     flex-direction: column;
     padding: 0;
@@ -535,7 +572,7 @@ body {
 
   .about-picture {
     margin-top: 70px;
-    width: 400px;
+    width: 250px;
     border-radius: 20px;
     margin-left: 0;
     margin-right: 0;
@@ -546,14 +583,55 @@ body {
   }
 
   .about-heading {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 30px;
   }
 
   .about-paragraph {
     font-size: 20px;
-    width: 500px;
+    width: 260px;
     text-align: center;
+  }
+
+  .contact-details-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-details-left-side {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .contact-paragraph {
+    width: 250px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .contact-details-heading {
+    font-size: 20px;
+  }
+
+  .phone-number-text,
+  .email-text,
+  .address-text {
+    font-size: 16px;
+  }
+
+  .contact-form-container {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contact-textbox {
+    width: 200px;
+  }
+
+  .contact-send-message-button {
+    width: 210px;
   }
 }
